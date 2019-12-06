@@ -1,5 +1,17 @@
 import React, {Component} from 'react'
 class Counter extends Component {
+    componentDidUpdate(previousProps,previousState){
+        console.log('previous Props', previousProps );
+        console.log('previous state ', previousState )
+        
+        if(previousProps.counter.value !== this.props.counter.value){
+            console.log('not equal')
+        }
+
+    }
+    componentWillUnmount(){
+        console.log("unmounted")
+    }
    /* state = {
         count : this.props.counter.value, // props used to initialize data in the state
         team_members : ['prathvi','shetty']

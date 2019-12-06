@@ -1,0 +1,47 @@
+{
+  "name": "flask-front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "classnames": "^2.2.6",
+    "fusioncharts": "^3.13.4",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-d3-cloud": "^0.7.0",
+    "react-date-picker": "^7.4.0",
+    "react-datepicker": "^2.3.0",
+    "react-dom": "^16.12.0",
+    "react-fusioncharts": "^3.0.0",
+    "react-radio-group": "^3.0.3",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-select": "^2.4.2",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "initapp": "./src/fusionchart-files/fusioncharts.worldwithcountries.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://127.0.0.1:5000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
